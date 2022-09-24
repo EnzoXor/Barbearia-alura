@@ -118,3 +118,32 @@ font-family: 'Roboto Mono', monospace;
   font-family: 'Roboto Mono', monospace;
   color: white;
 }
+
+.contato
+{
+  padding: 2rem;
+  background-color: rgb(207, 207, 207);
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.contato h3
+{
+  display: flex;
+  color:rgb(146, 81, 43);
+  margin-left: 1rem ;
+}
+
+.brown
+{
+  color: black;
+}
+
+.foot
+{
+  color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 3rem;
+  padding: 2rem 0rem 0rem 10rem;
+}
