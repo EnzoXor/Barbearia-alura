@@ -1,0 +1,120 @@
+*
+{
+margin: 0rem;
+overflow-x: hidden;
+}
+
+
+
+.head
+{
+  height: 1rem;
+  width: 100vw;
+  padding: 1rem;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  color: aliceblue;
+  align-items: center;
+  padding-left: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 2rem;
+  position: fixed;
+}
+
+.itens
+{
+  display: flex;
+  margin-left: 17rem;
+  font-weight: 100;
+}
+
+.itens p
+{
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+.button
+{
+  background-color: rgb(146, 81, 43);
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.shop
+{
+  width: 100vw;
+  height: 30rem;
+  background-image: url(https://images.pexels.com/photos/1570806/pexels-photo-1570806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100vw;
+}
+
+.about
+{
+  background-image:url("https://barbeariajohnsix.com.br/wp-content/uploads/2020/01/bg-home-video.jpg") ;
+  display: flex;
+  padding: 11rem;
+}
+
+.about .sobre
+{
+margin-left: 13rem;
+width: 27rem;
+font-family: 'Roboto Mono', monospace;
+}
+
+.sobre h1
+{
+  font-family: 'Rubik Dirt', cursive;
+  font-size: 5rem;
+  
+}
+
+.serviços
+{
+  background-color: rgb(19, 18, 20);
+  padding-top: 10rem;
+}
+ 
+.serviços .title
+{
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  color: rgb(146, 81, 43);
+  margin-bottom: 5rem;
+}
+
+
+.box1
+{
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  color: rgb(146, 81, 43);
+}
+
+.mini1, .mini2, .mini3
+{
+ width: 22rem;
+ height: 25rem;
+  margin-left: 5rem;
+  border: 1px solid;
+  border-color: white;
+  padding-top: 1rem ;
+  padding: 1rem;
+  margin-bottom: 10rem;
+}
+.text
+{
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+}
