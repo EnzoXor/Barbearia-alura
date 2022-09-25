@@ -30,6 +30,7 @@ overflow-x: hidden;
   font-weight: 400;
   font-size: 2rem;
   position: fixed;
+  overflow-y: hidden;
 }
 
 .itens
@@ -69,7 +70,7 @@ overflow-x: hidden;
 .shop
 {
   width: 100vw;
-  height: 30rem;
+  height: 40rem;
   background-image: url(https://images.pexels.com/photos/1570806/pexels-photo-1570806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
   background-position: top;
@@ -111,7 +112,7 @@ font-family: 'Roboto Mono', monospace;
   display: flex;
   justify-content: center;
   color: var(--marrom);
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 
@@ -123,6 +124,7 @@ font-family: 'Roboto Mono', monospace;
   display: flex;
   justify-content: center;
   color: var(--marrom);
+  padding-top: 2rem;
 }
 
 .mini1, .mini2, .mini3
@@ -135,11 +137,69 @@ font-family: 'Roboto Mono', monospace;
   padding-top: 1rem ;
   padding: 1rem;
   margin-bottom: 10rem;
+  border-radius: .2rem;
+
 }
+
+.mini1:hover, .mini2:hover, .mini3:hover
+{
+  transform: scale(1.05);
+}
+
+
 .text
 {
   font-family: 'Roboto Mono', monospace;
   color: white;
+}
+
+.agende
+{
+  background-color: rgb(19, 18, 20);
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.agende .bx
+{
+  margin-bottom: 10rem;
+  height: auto;
+  padding: 5rem 5rem 7rem 5rem;
+  width: 60rem;
+  background-color: var(--marrom);
+  display: grid;
+  justify-content: center;
+  
+}
+
+.agende .bx h1
+{
+  font-family: 'Lobster', cursive;
+  font-size: 5rem;
+  color: rgb(19, 18, 20);
+}
+
+.agende .bx .text
+{
+  overflow-y: hidden;
+  margin-top: 3rem;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+  color: aliceblue;
+  font-size: 2rem;
+  line-height: 5rem;
+}
+
+.agende .bx .text a
+{
+  padding: 2rem;
+  color: aliceblue;
+  background-color: rgb(19, 18, 20);
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 2rem;
 }
 
 .linha
