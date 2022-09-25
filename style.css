@@ -2,7 +2,15 @@
 {
 margin: 0rem;
 overflow-x: hidden;
+
+
 }
+
+:root
+{
+  --marrom:rgb(146, 81, 43);
+}
+
 
 
 
@@ -35,12 +43,27 @@ overflow-x: hidden;
 {
   font-size: 1.5rem;
   margin: 1rem;
+  transition: transform 100ms;
 }
+
+.itens p:hover
+{
+  transform: scale(1.1);
+}
+
 .button
 {
-  background-color: rgb(146, 81, 43);
+  background-color: var(--marrom);
   font-size: 1.5rem;
   padding: 1rem;
+  transition: transform 100ms;
+}
+
+.button:hover
+{
+  transform: scale(1.1);
+  color: var(--marrom);
+  background-color: aliceblue;
 }
 
 .shop
@@ -87,7 +110,7 @@ font-family: 'Roboto Mono', monospace;
   font-size: 2rem;
   display: flex;
   justify-content: center;
-  color: rgb(146, 81, 43);
+  color: var(--marrom);
   margin-bottom: 5rem;
 }
 
@@ -99,7 +122,7 @@ font-family: 'Roboto Mono', monospace;
   font-size: 1.5rem;
   display: flex;
   justify-content: center;
-  color: rgb(146, 81, 43);
+  color: var(--marrom);
 }
 
 .mini1, .mini2, .mini3
@@ -119,6 +142,13 @@ font-family: 'Roboto Mono', monospace;
   color: white;
 }
 
+.linha
+{
+  width: 100vw;
+  height: .2rem;
+  background-color: var(--marrom);
+}
+
 .contato
 {
   padding: 2rem;
@@ -131,7 +161,7 @@ font-family: 'Roboto Mono', monospace;
 .contato h3
 {
   display: flex;
-  color:rgb(146, 81, 43);
+  color:var(--marrom);
   margin-left: 1rem ;
 }
 
