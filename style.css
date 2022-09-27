@@ -23,9 +23,8 @@ overflow-x: hidden;
   display: flex;
   color: aliceblue;
   align-items: center;
-  justfy-items: space-between;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  justfy-content: space-between;
+  padding: 2rem 2rem;
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
   font-size: 2rem;
@@ -129,6 +128,7 @@ font-family: 'Roboto Mono', monospace;
 
 .mini1, .mini2, .mini3
 {
+ overflow-y: hidden;
  width: 22rem;
  height: 25rem;
   margin-left: 5rem;
