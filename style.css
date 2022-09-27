@@ -23,7 +23,7 @@ overflow-x: hidden;
   display: flex;
   color: aliceblue;
   align-items: center;
-  padding-left: 7rem;
+  justfy-items: space-between;
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: 'Roboto Mono', monospace;
