@@ -17,25 +17,27 @@ overflow-x: hidden;
 .head
 {
   height: 1rem;
-  width: 100vw;
+  width: 100%;
   padding: 1rem;
   background-color: rgb(0, 0, 0);
   display: flex;
   color: aliceblue;
   align-items: center;
-  justfy-content: space-between;
+  justify-content: space-between;
   padding: 2rem 2rem;
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
   font-size: 2rem;
   position: fixed;
   overflow-y: hidden;
+  z-index: 100;
 }
 
 .itens
 {
   display: flex;
-  margin-left: 17rem;
+  align-items: center;
+  margin-right: 5rem;
   font-weight: 100;
 }
 
@@ -61,7 +63,6 @@ overflow-x: hidden;
 
 .button:hover
 {
-  transform: scale(1.1);
   color: var(--marrom);
   background-color: aliceblue;
 }
@@ -79,13 +80,16 @@ overflow-x: hidden;
 .about
 {
   background-image:url("https://barbeariajohnsix.com.br/wp-content/uploads/2020/01/bg-home-video.jpg") ;
+  background-position: bottom;
   display: flex;
   padding: 11rem;
+  
+justify-content: space-evenly;
 }
 
 .about .sobre
 {
-margin-left: 13rem;
+
 width: 27rem;
 font-family: 'Roboto Mono', monospace;
 }
@@ -138,7 +142,7 @@ font-family: 'Roboto Mono', monospace;
   padding: 1rem;
   margin-bottom: 10rem;
   border-radius: .2rem;
-
+  transition: transform 100ms;
 }
 
 .mini1:hover, .mini2:hover, .mini3:hover
@@ -237,3 +241,4 @@ font-family: 'Roboto Mono', monospace;
   height: 3rem;
   padding: 2rem 0rem 0rem 10rem;
 }
+
